@@ -1,0 +1,118 @@
+/*
+Colors used:
+Background (White): #ffffff
+Primary (Dark Grey): #697385
+Primary (Light Grey): #B0AFB2
+Secondary (Dark Teal): #348A95
+Secondary (Green): #409C8C
+Secondary (Dark Blue/Grey): #35435C
+
+Typography:
+Heading 1 - Spinnaker - 24
+Heading 2- Spinnaker - 20
+Body (Emphasis) - Montserrat, Medium - 16
+Body - Montserrat, Normal - 16
+
+*/
+
+/* Typography */
+
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #697385;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Spinnaker', sans-serif;
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+  color: #348A95
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+/* Links */
+
+a {  /* no underlining*/
+  color: #409C8C;
+  text-decoration: none;
+}
+
+a:visited { /* visited link */
+  color: #409C8C;
+}
+
+a:hover,
+a:focus {
+  color: #388778;
+  text-decoration: underline;
+}
+
+a:active { /* selected link */
+  color: #2a665a;
+}
+
+.button {
+  display: inline-block;
+  background-color: #409C8C;
+  color: #ffffff !important;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #409C8C;
+  transition: 0.2s opacity;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button:active {
+  background-color: #35435C;
+  color: #FFF;
+  opacity: 0.8;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #409C8C !important;
+  text-transform: uppercase;
+  border: 2px solid #409C8C;
+}
+
+.button.contact:hover,
+ .button.contact:focus{
+  background-color: #409C8C;
+  color: #ffffff !important;
+}
+
+.button:active {
+  background-color: #35435C;
+  color: #FFF;
+  opacity: 0.8;
+}
