@@ -54,6 +54,10 @@ img {
   width: 100%;
 }
 
+#AOlogo {
+  width: auto;
+}
+
 /* Links */
 
 a {  /* no underlining*/
@@ -111,7 +115,7 @@ a:active { /* selected link */
   color: #ffffff !important;
 }
 
-.button:active {
+.button.contact:active {
   background-color: #35435C;
   color: #FFF;
   opacity: 0.8;
