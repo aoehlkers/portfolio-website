@@ -15,7 +15,10 @@ Body - Montserrat, Normal - 16
 
 */
 
-/* Typography */
+* {
+  box-sizing: border-box;
+}
+
 
 body{
     background-color: white;
@@ -25,6 +28,16 @@ body{
     line-height: 1.6;
     color: #697385;
 }
+
+header {
+  background-color: #e3e9ed;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  position: fixed;
+  width: 100%
+}
+
 
 h1, h2, h3, h4 {
   font-family: 'Spinnaker', sans-serif;
@@ -55,12 +68,12 @@ img {
 }
 
 #AOlogo {
-  width: auto;
+  max-width: 50px;
 }
 
 /* Links */
 
-a {  /* no underlining*/
+a {
   color: #409C8C;
   text-decoration: none;
 }
@@ -71,7 +84,7 @@ a:visited { /* visited link */
 
 a:hover,
 a:focus {
-  color: #388778;
+  color: #697385;
   text-decoration: underline;
 }
 
@@ -119,4 +132,67 @@ a:active { /* selected link */
   background-color: #35435C;
   color: #FFF;
   opacity: 0.8;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #B0AFB2;
+}
+
+
+main {
+  padding-top: 113.31px;
+}
+
+#hero {
+  background-color: #e3e9ed;
+  display: inline-block;
+  width: 100%;
+}
+
+#heroquote {
+  background-color:
+}
+
+/* Nav bar styling */
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+nav > ul > li {
+display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #409C8C;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus,  {
+  color: #697385;
+
+}
+
+nav > ul > li > a:active { /* selected link */
+  color: #2a665a;
 }
