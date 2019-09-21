@@ -38,6 +38,9 @@ header {
   width: 100%
 }
 
+footer {
+  text-align:center;
+}
 
 h1, h2, h3, h4 {
   font-family: 'Spinnaker', sans-serif;
