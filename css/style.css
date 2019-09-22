@@ -32,6 +32,7 @@ body{
 header {
   background-color: #e3e9ed;
   text-align: center;
+  font-size: .75em;
   padding: 10px 0;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
   position: fixed;
@@ -156,7 +157,7 @@ a:active { /* selected link */
 
 
 main {
-  padding-top: 113.31px;
+  padding-top: 92.31px;
 }
 
 #hero {
