@@ -333,6 +333,19 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+
+  img:not(#AOlogo) {
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+
+  #caption {
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding-top: 15px;
+  }
 }
 
 /* ==============================
