@@ -4,7 +4,7 @@ Background (White): #ffffff
 Primary (Dark Grey): #697385
 Primary (Light Grey): #B0AFB2
 Secondary (Dark Teal): #348A95
-Secondary (Green): #409C8C
+Secondary (Green): #358277
 Secondary (Dark Blue/Grey): #35435C
 
 Typography:
@@ -19,30 +19,32 @@ Body - Montserrat, Normal - 16
   box-sizing: border-box;
 }
 
-
-body{
-    background-color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #697385;
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #697385;
 }
 
 header {
   background-color: #e3e9ed;
-  font-size: .75em;
+  font-size: 0.75em;
   padding: 10px 0;
-  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 5px 0 rgba(50, 50, 50, 0.75);
   position: fixed;
-  width: 100%
+  width: 100%;
 }
 
-
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Spinnaker', sans-serif;
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
@@ -51,13 +53,14 @@ h1 {
 h2 {
   font-size: 2.25em;
   font-weight: 700;
-  color: #348A95
+  color: #348a95;
 }
 
 h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
@@ -67,10 +70,12 @@ img {
   width: 100%;
 }
 
-.social-icon {width: 50px;
+.social-icon {
+  width: 50px;
 }
 
-.social-container { display: inline-block;
+.social-container {
+  display: inline-block;
 }
 
 #AOlogo {
@@ -80,9 +85,9 @@ img {
 /* Berlin image animation */
 
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% { fill: #edc655; }
+  50% { fill: #fcffad; }
+  100% { fill: #f76414; }
 }
 
 .sun {
@@ -90,8 +95,8 @@ img {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from { transform: translate(0, 50px); }
+  to { transform: translate(200px, 50px); }
 }
 
 .cloud-front {
@@ -99,25 +104,23 @@ img {
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from { transform: translate(446px, 48px); }
+  to { transform: translate(100px, 48px); }
 }
 
 .cloud-back {
   animation: 25s cloud-move-reverse infinite alternate linear;
 }
 
-
-
 /* Links */
 
 a {
-  color: #409C8C;
+  color: #358277;
   text-decoration: none;
 }
 
 a:visited { /* visited link */
-  color: #409C8C;
+  color: #358277;
 }
 
 a:hover,
@@ -132,12 +135,12 @@ a:active { /* selected link */
 
 .button {
   display: inline-block;
-  background-color: #409C8C;
-  color: #ffffff !important;
+  background-color: #358277;
+  color: #fff !important;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #409C8C;
+  border-bottom: 2px solid #358277;
   transition: 0.2s opacity;
 }
 
@@ -148,29 +151,29 @@ a:active { /* selected link */
 }
 
 .button:active {
-  background-color: #35435C;
-  color: #FFF;
+  background-color: #35435c;
+  color: #fff;
   opacity: 0.8;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #409C8C !important;
+  color: #358277 !important;
   text-transform: uppercase;
-  border: 2px solid #409C8C;
+  border: 2px solid #358277;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 
 .button.contact:hover,
- .button.contact:focus{
-  background-color: #409C8C;
-  color: #ffffff !important;
+.button.contact:focus {
+  background-color: #358277;
+  color: #fff !important;
 }
 
 .button.contact:active {
-  background-color: #35435C;
-  color: #FFF;
+  background-color: #35435c;
+  color: #fff;
   opacity: 0.8;
 }
 
@@ -185,9 +188,10 @@ a:active { /* selected link */
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #B0AFB2;
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #b0afb2;
 }
-
 
 main {
   padding-top: 50px;
@@ -200,14 +204,7 @@ main {
   width: 100%;
 }
 
-#heroquote {
-  background-color:
-}
-
-
-
 /* Nav bar styling */
-
 
 nav > ul {
   list-style-type: none;
@@ -215,18 +212,16 @@ nav > ul {
   margin: 0;
 }
 
-
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #409C8C;
+  color: #358277;
 }
 
 nav > ul > li > a:hover,
-nav > ul > li > a:focus,  {
+nav > ul > li > a:focus {
   color: #697385;
-
 }
 
 nav > ul > li > a:active { /* selected link */
@@ -236,13 +231,16 @@ nav > ul > li > a:active { /* selected link */
 .navtoggle li:not(:last-child) {
   display: none;
 }
-.navtoggle, .navtoggle.responsive {
+
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
+
 .navtoggle li .icon {
   position: absolute;
   padding-right: 0;
@@ -250,65 +248,77 @@ nav > ul > li > a:active { /* selected link */
   top: 2px;
   font-size: 20px;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #fff;
 }
-.navtoggle.responsive li:last-child  {
+
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   header {
-      text-align: unset;
-      padding: 20px 0 13px;
+    text-align: unset;
+    padding: 20px 0 13px;
   }
+
   main {
     padding-top: 80px;
   }
+
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
   }
+
   .navtoggle li:not(:last-child) {
-  display: inline-block;
+    display: inline-block;
   }
+
   .navtoggle li:last-child {
-  display: none;
+    display: none;
   }
+
   nav > ul {
-  margin: 1em 0;
+    margin: 1em 0;
   }
+
   nav > ul > li {
-  display: inline-block;
+    display: inline-block;
   }
+
   .col-md-6 {
     width: 50%;
   }
+
   [class*="col-"] {
     float: left;
-     padding: 20px ;
-  }
-  .row::after {
-content: "";
-clear: both;
-display: table;
+    padding: 20px;
   }
 
-  #about-page h3 { margin-top: 0;}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
+
+  #about-page h3 { margin-top: 0; }
+}
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   .col-lg-7 {
-      width: 58.33%;
-    }
+    width: 58.33%;
+  }
 
   .col-lg-5 {
     width: 41.66%;
@@ -325,9 +335,6 @@ Large devices (1024px or larger)
   }
 }
 
-
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
